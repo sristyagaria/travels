@@ -1,0 +1,43 @@
+*{
+
+margin: 0;
+padding: 0;
+font-family: Century Gothic;}
+header{background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(trav.jpg);
+height:100vh;
+background-size: cover;
+background-position: center;}
+
+ul{float: right;
+list-style-type: none;
+ margin-top: 25px;}
+li{display: inline-block;
+  transition: 0.6s ease;
+}
+ a{color:#fff;
+   padding:5px 20px;
+ border: 1px solid #transparent;
+}
+a:hover{background-color: #fff;
+color:#000;}
+.yo{background-color: #fff;
+color:#000;}
+.strong{position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);}
+h1{color:#fff;
+font-size: 70px;}
+.button{position: absolute;
+top: 60%;
+left: 50%;
+transform: translate(-50%,-50%)}
+.haan{border: 1px solid #fff;
+padding: 10px 30px;
+color: #fff;
+text-decoration: none;}
+.haan:hover{background-color: #fff;
+color: 000;}
+.please img{float: left;
+width:300px;
+height:auto;}
